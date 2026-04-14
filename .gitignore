@@ -1,33 +1,9 @@
 .dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-android/.gradle/
-android/app/build/
-.gradle/
-*.apk
-*.aab
-*.keystore
-*.jks
-*.local.properties
-*.iml
-*.log
-*.bin
-*.lock
-*.tmp
-*.tmp.*
-*.cache
-*.DS_Store
-*.idea/
-*.vscode/
-*.flutter-plugins
-*.flutter-plugins-dependencies
-*.packages
-.pub-cache/
-.pub/
-*.g.dart
-
+  .flutter-plugins
+  .flutter-plugins-dependencies
+  .packages
+  .pub-cache/
+  .pub/
+  build/
+  *.g.dart
   
