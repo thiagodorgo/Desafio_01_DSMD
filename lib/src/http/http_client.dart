@@ -5,8 +5,8 @@ import 'package:dio/dio.dart';
       final dio = Dio(
         BaseOptions(
           baseUrl: 'https://viacep.com.br/ws',
-          connectTimeout: const Duration(seconds: 10),
-          receiveTimeout: const Duration(seconds: 10),
+          connectTimeout: const Duration(seconds: 10).inMilliseconds,
+          receiveTimeout: const Duration(seconds: 10).inMilliseconds,
           responseType: ResponseType.json,
         ),
       );
